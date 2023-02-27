@@ -1,4 +1,11 @@
-
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .header{
     width: 1600px;
     margin: auto;
@@ -13,6 +20,17 @@
     margin-left: 50px; */
     background: rgb(0, 2, 10);
     background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
+}
+.block{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.block_list{
+    width: 270px;
+}
+.wrapper{
+    margin-bottom: 90px;
 }
 .logo{
     padding: 20px;
@@ -34,10 +52,7 @@
 
 }
 
-.ul{
-    text-decoration: none;
-    list-style: none;
-}
+
 .list{
     padding-bottom: 1px;
    margin-right: 20px;
@@ -95,9 +110,11 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
 .section{
     width: 1600px;
     background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
-
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 90px;
 }
-.title{
+.title_hero{
    
     Font-size: 47px;
     font-family: Rubik Moonrocks;
@@ -107,7 +124,15 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
     
     font-weight: 700;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 100px;
+
+    margin: 0 auto;
+    color: #090909;
+}
+.title{
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
 
     margin: 0 auto;
     color: #090909;
@@ -132,6 +157,39 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
 .content_list_text{
     font-size: 25px;
     text-shadow: 1px 1px 1px rgba(108, 147, 177, 0.818);
+}
+.text{
+    margin: 0;
+
+}
+.wrap_content{
+    width: 300px;
+    color: beige;
+    padding-top: 50px;
+}
+.section_content{
+    color: beige;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.section_hero{
+    min-height: 400px;
+}
+.summary{
+    font-weight: 800;
+    font-size: 34px;
+    color: rgb(214, 214, 205);
+    padding-left: 40px;
+}
+.summary_link{
+    padding-left: 40px;
+   padding-bottom: 15px;
+   font-weight: 400;
+   font-size: 24px;
+}
+.summary_link a:hover{
+    color:aquamarine;
+    font-size: 26px;
 }
 /* //////////////////////////  */
 .backdrop{
@@ -164,9 +222,9 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.label{
+/* .label{
    
-}
+} */
 .input{
     font-family: 'Montserrat';
     width: 300px;
