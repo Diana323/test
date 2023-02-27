@@ -27,7 +27,7 @@ a{
     gap:30px;
 }
 .block_list{
-    width: 270px;
+    width: 210px;
 }
 .wrapper{
     margin-bottom: 90px;
@@ -109,7 +109,7 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
 }
 .section{
     width: 1600px;
-    background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
+    /* background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%); */
     padding-left: 80px;
     padding-right: 80px;
     margin-bottom: 90px;
@@ -119,20 +119,23 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
     Font-size: 47px;
     font-family: Rubik Moonrocks;
     text-shadow: 1px 2px 1px rgba(239, 243, 246, 0.818);
-    Line-height: 30px;
+    Line-height: calc(47/35);
     Letter-spacing: 3%;
     
     font-weight: 700;
     text-align: center;
     padding-top: 100px;
+    
 
     margin: 0 auto;
     color: #090909;
+    width: 1090px;
 }
 .title{
     font-weight: 700;
+    font-size: 28px;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 
     margin: 0 auto;
     color: #090909;
@@ -140,7 +143,7 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
 .main{
     width: 1600px;
     margin: auto;
-    background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
+   
 }
 .content{
     list-style: none;
@@ -159,21 +162,35 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
     text-shadow: 1px 1px 1px rgba(108, 147, 177, 0.818);
 }
 .text{
-    margin: 0;
+    /* margin: 0; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
 
+
+
+    color: rgba(0, 0, 0, 0.7);
 }
 .wrap_content{
     width: 300px;
-    color: beige;
-    padding-top: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+
+
+    color: rgba(0, 0, 0, 0.7);
+   
 }
 .section_content{
-    color: beige;
+    /* color: beige; */
     margin-top: 50px;
     margin-bottom: 0;
 }
 .section_hero{
     min-height: 400px;
+    background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
 }
 .summary{
     font-weight: 800;
@@ -201,6 +218,7 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
 }
 .is-hidden{
      visibility: hidden;
+     opacity: 0;
 }
 .modal_close{
     right: 7px;
