@@ -192,12 +192,31 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
     min-height: 400px;
     background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
 }
-.summary{
+.sum_menu{
     font-weight: 800;
     font-size: 34px;
     color: rgb(214, 214, 205);
-    padding-left: 40px;
+    background-color: transparent;
+    
 }
+.menu {
+    background-color: transparent;
+    margin-bottom: 0;
+ } 
+ .backdrop_menu{
+    width: 1600px;
+  
+    
+    align-items: baseline;
+    /* margin-right: 50px;
+    margin-left: 50px; */
+    background: rgb(0, 2, 10);
+    background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
+ }
+/* .summary_ul{
+    position: relative;
+} */
+
 .summary_link{
     padding-left: 40px;
    padding-bottom: 15px;
@@ -239,10 +258,10 @@ box-shadow: 3px 10px 10px rgb(0, 1, 1);
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-/* .label{
-   
-} */
+} 
+
+
+
 .input{
     font-family: 'Montserrat';
     width: 300px;

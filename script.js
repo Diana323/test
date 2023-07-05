@@ -127,3 +127,19 @@ if (target === modal) {
 modal.style.display = "none";
 }
 });
+
+
+var sum_menu = document.getElementById('spa');
+var ul = sum_menu.nextSibling.nextSibling;
+
+sum_menu.onclick = function() {
+  console.log(sum_menu, ul);
+	if (sum_menu.classList.contains('menu') == false) {
+    sum_menu.classList.add('menu');
+    ul.style.display = "block";
+  } else {
+    sum_menu.classList.remove('menu');
+    ul.style.display = "none";
+  }
+
+}
