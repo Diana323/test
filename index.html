@@ -32,7 +32,7 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
-<body>
+<body body > 
   <header class="header">
       <div class="container">
         <h1 class="logo animate__animated animate__bounce">MainTest</h1>
@@ -145,7 +145,7 @@
               <a class="item" href="#" id="open">Registration</a>
             </li>
              <li class="list">
-              <a class="item" href="#">recover password</a>
+              <a class="item" href="#" id="open1">recover password</a>
             </li> 
           </ul>
         <div class="adres_nav">
@@ -169,9 +169,9 @@
         </nav>
       </div>
  </footer>
- <div class="backdrop is-hidden" data-modal>
+ <div class="backdrop is-hidden" id="modal">
   <div class="modal">
-    <button type="button" class="modal_close" data-modal-close>x</button>
+    <button type="button" class="modal_close" id="close">x</button>
       <h2 class="input_title">Вход</h2>
       <p class="input_title_p">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       <form>
@@ -191,7 +191,7 @@
       <div class="btn_wrap">
         <button class="singin">Вход</button>
         <a href="#" id="open">
-          <button class="singin" id="open">
+          <button class="singin">
           Создать аккаунт</button>
           </a>
       </div>
@@ -208,43 +208,37 @@
         class="input"
         type=""
         placeholder="Логин"
-        required
-         >
+        required>
         </label>
         <label><input
         class="input"
         type=""
         placeholder="Пароль"
-        required
-        >
+        required>
       </label>
       <label><input
         class="input"
         type=""
         placeholder="Повторить пароль"
-        required
-        >
+        required>
       </label>
       <label><input
         class="input"
         type=""
         placeholder="@email"
-        required
-        >
+        required>
       </label>
       <label><input
         class="input"
         type=""
         placeholder="+ 38 (___) ___ __ __"
-        required
-        >
+        required>
       </label>
       <label><input
         class="input"
         type=""
         placeholder="Имя"
-        required
-        >
+        required>
       </label>
       <label><input
         class="input"
@@ -254,6 +248,38 @@
       </label>
     </form>
     <button class="singin" type="submit"  id="open">Создать аккаунт</button>
+      <!-- test modal -->
+    <div class="backdrop none" id="#modal1">
+      <div class="modal">
+        <button type="button" class="modal_close" id="#close1">x</button>
+          <h2 class="input_title">Восстановить аккаунт</h2>
+          <p class="input_title_p">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <form>
+            <label class="label"><input
+                 class="input"
+                 type="email"
+                 placeholder="email"
+                 required>
+            </label>
+            <label class="label"><input
+                 class="input"
+                 type="password"
+                 placeholder=""
+                 required>
+            </label>
+          </form> 
+          <div class="btn_wrap">
+            <button class="singin">Восстановить</button>
+            <a href="#" id="open1">
+              <button class="singin" id="open1">
+              Создать аккаунт</button>
+              </a>
+          </div>
+      </div>
+     </div>
+   <!-- test -->
+
+
   </div>
  </div>
  <!-- <script>
