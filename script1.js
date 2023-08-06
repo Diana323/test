@@ -127,3 +127,8 @@
   modal.style.display = "none";
   }
   });
+
+        //  
+        b (7);
+        a = (b * 3);
+       console.log(a);
