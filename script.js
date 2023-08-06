@@ -109,6 +109,8 @@
 //      }); // end click
 //   }); // end foreach
 // }); // end ready
+
+    // modal sing in
 const openBtn = document.querySelector('#open'),
 modal = document.querySelector('#modal'),
 closeBtn = document.querySelector('#close');
@@ -127,6 +129,26 @@ if (target === modal) {
 modal.style.display = "none";
 }
 });
+
+  // modal registration
+  const openBtn = document.querySelector('#open1'),
+  modal = document.querySelector('#modal1'),
+  closeBtn = document.querySelector('#close1');
+  
+  openBtn.addEventListener('click', () => {
+  modal.style.display = 'block';
+  });
+  
+  closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+  });
+  
+  window.addEventListener("click", (e) => {
+  const target = e.target;
+  if (target === modal) {
+  modal.style.display = "none";
+  }
+  });
 
 
 var sum_menu = document.getElementById('spa');
