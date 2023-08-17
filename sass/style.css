@@ -126,9 +126,6 @@ a {
   visibility: visible;
 }
 
-body {
-  background: linear-gradient(90deg, #a2decd 0%, rgb(59, 168, 141) 41%, rgb(156, 215, 224) 52%, rgb(29, 155, 165) 65%, rgb(28, 1, 1) 100%);
-}
 
 .header {
   width: 1600px;

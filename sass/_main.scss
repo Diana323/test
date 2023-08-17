@@ -1,12 +1,10 @@
-
-body{
-     background: linear-gradient(90deg, #a2decd 0%, rgba(59, 168, 141, 1) 41%, rgb(156, 215, 224) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
-}
 .header{
- width: 1600px;
- margin: auto;
-
-}
+          @media screen and (min-width: 1200px) {
+               {
+               width: 1600px;
+               margin: auto;
+               }
+}}
 .container {
  width: 1600px;
  
@@ -195,17 +193,23 @@ color: rgb(214, 214, 205);
 background-color: transparent;
 
 }
-.menu {
-background-color: transparent;
-margin-bottom: 0;
-} 
+// .menu {
+// background-color: red;
+// margin-bottom: 0;
+// color: rgb(214, 214, 205);
+// background-color: transparent;
+// } 
 .backdrop_menu{
-width: 1600px;
+// width: 1600px;
 
+padding-left: 200px;
 
 align-items: baseline;
-/* margin-right: 50px;
-margin-left: 50px; */
+//  margin-right: 50px;
+margin-left: 50px; 
 background: rgb(0, 2, 10);
 background: linear-gradient(90deg, rgba(0, 2, 10, 1) 0%, rgba(59, 168, 141, 1) 41%, rgba(119, 196, 207, 1) 52%, rgba(29, 155, 165, 1) 65%, rgba(28, 1, 1, 1) 100%);
+}
+.cont_menu{
+     padding-left: 200px;
 }
