@@ -4,7 +4,13 @@
                width: 1600px;
                margin: auto;
                }
-}}
+}
+  @media screen and (min-width: 780px) {
+            width: 780px;
+            margin: auto;
+       
+  }
+}
 .container {
  width: 1600px;
  
